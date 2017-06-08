@@ -17,7 +17,7 @@ namespace Pracitce3
             double x, y;
             x = double.Parse(Console.ReadLine());
             y = double.Parse(Console.ReadLine());
-            if (x >= 1 && x <= -1 && y <= 1 && y >= -1)
+            if (x <= 1 && x >= -1 && y <= 1 && y >= -1)
                 Console.WriteLine("Точка принадлежит квадрату");
             else
                 Console.WriteLine("Точка НЕ принадлежит квадрату");
