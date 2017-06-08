@@ -14,7 +14,13 @@ namespace Pracitce3
             //диагональ АВ -  А = (-1; -1); В = (1; 1);
             //На вход два действительных числа
             //Определить - внутри квадрата или нет
-            Console.WriteLine();
+            double x, y;
+            x = double.Parse(Console.ReadLine());
+            y = double.Parse(Console.ReadLine());
+            if (x >= 1 && x <= -1 && y <= 1 && y >= -1)
+                Console.WriteLine("Точка принадлежит квадрату");
+            else
+                Console.WriteLine("Точка НЕ принадлежит квадрату");
         }
     }
 }
